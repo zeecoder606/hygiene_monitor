@@ -1,5 +1,4 @@
-# PyTorch-YOLOv3
-A minimal PyTorch implementation of YOLOv3 for hygiene monitoring, with support for training, inference and evaluation.
+# Hygiene-Monitor
 
 ## Installation
 ##### Clone and install requirements
@@ -14,10 +13,10 @@ A minimal PyTorch implementation of YOLOv3 for hygiene monitoring, with support 
 ##### Run the model to detect from images placed in data/samples
     $ python3 detect.py --image_folder data/samples/ --model_def config/yolov3-custom.cfg --weights_path weights/yolov3_ckpt_99.pth --class_path data/custom/classes.names 
 
-<p align="center"><img src="assets/giraffe.png" width="480"\></p>
-<p align="center"><img src="assets/dog.png" width="480"\></p>
-<p align="center"><img src="assets/traffic.png" width="480"\></p>
-<p align="center"><img src="assets/messi.png" width="480"\></p>
+<p align="center"><img src="assets/00020.png" width="480"\></p>
+<p align="center"><img src="assets/00021.png" width="480"\></p>
+<p align="center"><img src="assets/00041.png" width="480"\></p>
+<p align="center"><img src="assets/00042.png" width="480"\></p>
 
 ## Train
 ```
