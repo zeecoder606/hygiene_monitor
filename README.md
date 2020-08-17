@@ -3,7 +3,7 @@
 ## Installation
 ##### Clone and install requirements
     $ git clone https://github.com/zeecoder606/hygiene_monitor.git
-    $ cd hygiene_monirtor/
+    $ cd hygiene_monitor/
     $ sudo pip3 install -r requirements.txt
 
 ##### Download pretrained weights for Hygiene Monitor 
